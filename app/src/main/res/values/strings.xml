@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VENTA DE CALZADO</string>
+    <string name="layout">Ingrese su nombre</string>
+    <string name="layout2">Ingrese la cantidad de Sandalias</string>
+    <string name="layout3">Ingrese la cantidad de Tenis</string>
+    <string name="layout4">Ingrese la cantidad de Mocasines</string>
+    <string name="btnCalcular">CALCULAR</string>
+</resources>
