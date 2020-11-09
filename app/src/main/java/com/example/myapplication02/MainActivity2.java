@@ -22,7 +22,9 @@ public class MainActivity2 extends AppCompatActivity {
 
     }
 
+    //Method
     public void recibeDatos(){
+        //Bundle
         Bundle extras = getIntent().getExtras();
         String name = extras.getString("dato1");
         int subtotal = extras.getInt("dato2");
@@ -30,7 +32,6 @@ public class MainActivity2 extends AppCompatActivity {
         double totalConDescuento = extras.getDouble("dato4");
         double total = extras.getDouble("dato5");
 
-        //
         textView1 = (TextView)findViewById(R.id.txtResultado1);
         textView2 = (TextView)findViewById(R.id.txtResultado2);
         textView3 = (TextView)findViewById(R.id.txtResultado3);
